@@ -1,0 +1,37 @@
+# Angular build artifacts
+/dist
+/out-tsc
+
+# Node modules
+/node_modules
+
+# IDEs
+/.idea/
+/.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# npm logs
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# environment files
+/src/environments/environment.*.ts
+
+# Angular CLI cache
+/.angular
+
+# TypeScript v1 declaration files
+typings/
+
+# IDE specific files
+.vscode/*
+
+# Optional NPM package configuration
+package-lock.json
+yarn.lock

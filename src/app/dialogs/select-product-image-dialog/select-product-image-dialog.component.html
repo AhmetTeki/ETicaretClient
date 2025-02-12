@@ -1,0 +1,20 @@
+<h3>Product Images</h3>
+<app-file-upload [options]="options"></app-file-upload>
+<mat-card
+  class="example-card"
+  appearance="outlined"
+  *ngFor="let image of images"
+>
+  <input type="radio" name="img" (click)="showCase(image.id)" />
+  <img mat-card-image [src]="image.path" alt="Photo of a Shiba Inu" />
+
+  <mat-card-actions>
+    <button
+      (click)="deleteImage(image.id)"
+      mat-button
+      style="background-color: brown; color: aliceblue"
+    >
+      Delete
+    </button>
+  </mat-card-actions>
+</mat-card>
