@@ -1,3 +1,5 @@
+Repomda yer alan ETicaretApi Projesinin Client kısmı. Backend Kısmı için repoma bakmanız yeterli. Bu projede Angular, typescript, bootstrap, css ve html5 kullandım
+
 # ETicaretClient
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.5.
